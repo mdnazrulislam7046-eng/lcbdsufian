@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Computer BD - কম্পিউটার ও AI শিখুন সহজভাবে</title>
+  <meta name="description" content="Microsoft Word, Excel, PowerPoint এবং AI-এর ব্যবহার শিখুন সহজ ও ব্যবহারিকভাবে। মাত্র ১৯৯ টাকায় মানসম্মত কম্পিউটার কোর্স।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="header" id="mainHeader">
+    <div class="container header-container">
+      <a href="#home" class="brand">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21.42 10.922a1 1 0 0 0-.019-.838L12.83 2.18a2 2 0 0 0-1.66 0L2.6 10.084a1 1 0 0 0 0 1.832l8.57 7.908a2 2 0 0 0 1.66 0l8.57-7.9a1 1 0 0 0 .02-.002z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <span class="brand-name">Learning Computer BD</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="nav-link">Free Class</a>
+        <a href="#courses" class="nav-link">ভর্তি হতে চাই</a>
+        <a href="#contact" class="nav-link">Support / Contact</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          Free Class
+        </a>
+        <a href="#courses" class="btn btn-primary btn-sm">
+          <span>ভর্তি হতে চাই</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l10-10M7 7h10v10"/></svg>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="hamburger-btn" id="hamburgerBtn" aria-label="মেনু খুলুন">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <nav class="mobile-nav">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="mobile-nav-link">Free Class (রেজিস্ট্রেশন)</a>
+        <a href="#courses" class="mobile-nav-link">ভর্তি হতে চাই</a>
+        <a href="#contact" class="mobile-nav-link">Support / Contact</a>
+      </nav>
+      <div class="mobile-actions">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">
+          Free Class ফরম পূরণ করুন
+        </a>
+        <a href="#courses" class="btn btn-primary w-full">
+          ভর্তি হতে চাই
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="kicker">
+          <span class="kicker-dot"></span>
+          <span>Learning Computer BD</span>
+          <span class="kicker-sep">·</span>
+          <span>অনলাইন কোর্স</span>
+        </div>
+
+        <h1 class="hero-headline">কম্পিউটার ও AI শিখুন সহজভাবে</h1>
+
+        <p class="hero-description">
+          Microsoft Word, Excel, PowerPoint এবং AI-এর ব্যবহার শিখুন সহজ ও ব্যবহারিকভাবে।
+        </p>
+
+        <p class="hero-subtext">
+          বাংলাদেশি শিক্ষার্থীদের জন্য সহজ বাংলায় প্র্যাকটিক্যাল কম্পিউটার ও কৃত্রিম বুদ্ধিমত্তা (AI) স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম। ঘরে বসেই ক্যারিয়ার ও কাজের দক্ষতা বাড়ান।
+        </p>
+
+        <!-- Highlights inline -->
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>হাতে-কলমে প্র্যাকটিস</span>
+          </div>
+          <span class="sep">·</span>
+          <div class="highlight-item">
+            <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>সহজ বাংলা ভাষায় ব্যাখ্যা</span>
+          </div>
+          <span class="sep">·</span>
+          <div class="highlight-item">
+            <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>প্রতিটি কোর্স মাত্র ১৯৯ টাকা</span>
+          </div>
+        </div>
+
+        <!-- Two Main Requested Buttons -->
+        <div class="hero-buttons">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="14" x="3" y="5" rx="2"/><polygon points="10 9 15 12 10 15 10 9"/></svg>
+            <span>Free Class রেজিস্ট্রেশন</span>
+          </a>
+
+          <a href="#courses" class="btn btn-primary btn-lg">
+            <span>ভর্তি হতে চাই</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <p class="hero-note">* সীমিত সময়ের জন্য স্পেশাল অফার। যেকোনো ডিভাইস থেকে ক্লাস করার সুযোগ।</p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="hero.jpg" alt="Learning Computer BD" class="hero-img">
+          <div class="hero-badge">
+            <div>
+              <p class="badge-title">শুরু করুন আজই</p>
+              <p class="badge-sub">বেসিক থেকে প্রফেশনাল স্কিল</p>
+            </div>
+            <div class="badge-price">
+              <span class="price-val">১৯৯ ৳</span>
+              <p class="price-sub">প্রতি কোর্স</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PAID COURSES SECTION ==================== -->
+  <section class="courses-section" id="courses">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="kicker centered">
+          <span class="kicker-dot"></span>
+          <span>মানসম্মত কম্পিউটার ও AI কোর্সসমূহ</span>
+        </div>
+        <h2 class="section-title">ভর্তি হতে চাই - কোর্স তালিকা</h2>
+        <p class="section-desc">
+          শুরু থেকে বাস্তব কাজের উপযোগী করে সাজানো প্রতিটি কোর্স। মাত্র ১৯৯ টাকায় যেকোনো কোর্সে আজই ভর্তি হতে পারেন।
+        </p>
+      </div>
+
+      <!-- 4 Course Cards Grid -->
+      <div class="courses-grid">
+        
+        <!-- Course 1: Microsoft Word -->
+        <div class="course-card">
+          <div class="card-thumb">
+            <img src="word.jpg" alt="Microsoft Word" class="card-img">
+            <div class="card-price-pill">১৯৯ টাকা</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>Document Formatting & Typing</span>
+              <span class="sep">·</span>
+              <span>প্র্যাকটিক্যাল ক্লাস</span>
+            </div>
+            <h3 class="card-title">Microsoft Word</h3>
+            <p class="card-desc">
+              অফিসিয়াল ডকুমেন্ট তৈরি, সিভি (CV) রাইটিং, পেজ সেটআপ, ফন্ট স্টাইলিং ও প্রফেশনাল প্রিন্ট করার সম্পূর্ণ গাইড।
+            </p>
+            <ul class="card-highlights">
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>সিভি ও অফিশিয়াল লেটার তৈরি</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>টেবিল ও পেজ লেআউট ফরম্যাটিং</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>প্রিন্ট ও পিডিএফ এক্সপোর্ট</li>
+            </ul>
+            <div class="card-footer">
+              <div class="price-box">
+                <span class="fee-label">কোর্স ফি</span>
+                <span class="fee-amount">১৯৯ টাকা</span>
+              </div>
+              <button type="button" class="btn btn-primary btn-sm enroll-btn" data-course-id="ms-word">
+                <span>ভর্তি হতে চাই</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17l10-10M7 7h10v10"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 2: Microsoft Excel -->
+        <div class="course-card">
+          <div class="card-thumb">
+            <img src="excel.jpg" alt="Microsoft Excel" class="card-img">
+            <div class="card-price-pill">১৯৯ টাকা</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>Formulas, Data & Accounting</span>
+              <span class="sep">·</span>
+              <span>প্র্যাকটিক্যাল ক্লাস</span>
+            </div>
+            <h3 class="card-title">Microsoft Excel</h3>
+            <p class="card-desc">
+              সহজ থেকে অ্যাডভান্সড ফর্মুলা, হিসাব-নিকাশ, বেতন শিট, বাজেট তৈরি ও চার্ট বিশ্লেষণের সম্পূর্ণ এক্সেল কোর্স।
+            </p>
+            <ul class="card-highlights">
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>বেসিক ও অ্যাডভান্সড ফর্মুলা (SUM, IF, VLOOKUP)</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>দৈনন্দিন আয়-ব্যয় ও বাজেট হিসাব</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>আকর্ষণীয় বার ও পাই চার্ট তৈরি</li>
+            </ul>
+            <div class="card-footer">
+              <div class="price-box">
+                <span class="fee-label">কোর্স ফি</span>
+                <span class="fee-amount">১৯৯ টাকা</span>
+              </div>
+              <button type="button" class="btn btn-primary btn-sm enroll-btn" data-course-id="ms-excel">
+                <span>ভর্তি হতে চাই</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17l10-10M7 7h10v10"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 3: Microsoft PowerPoint -->
+        <div class="course-card">
+          <div class="card-thumb">
+            <img src="powerpoint.jpg" alt="Microsoft PowerPoint" class="card-img">
+            <div class="card-price-pill">১৯৯ টাকা</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>Visual Slides & Presentations</span>
+              <span class="sep">·</span>
+              <span>প্র্যাকটিক্যাল ক্লাস</span>
+            </div>
+            <h3 class="card-title">Microsoft PowerPoint</h3>
+            <p class="card-desc">
+              আকর্ষণীয় প্রেজেন্টেশন স্লাইড ডিজাইন, স্মুথ অ্যানিমেশন, ইনফোগ্রাফিক এবং স্কুল/অফিস প্রেজেন্টেশন তৈরির কৌশল।
+            </p>
+            <ul class="card-highlights">
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>মডার্ন ও ক্লিন স্লাইড ডিজাইন</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>স্মার্ট ট্রানজিশন ও অ্যানিমেশন</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>ইনফোগ্রাফিক ও আইকন প্লেসমেন্ট</li>
+            </ul>
+            <div class="card-footer">
+              <div class="price-box">
+                <span class="fee-label">কোর্স ফি</span>
+                <span class="fee-amount">১৯৯ টাকা</span>
+              </div>
+              <button type="button" class="btn btn-primary btn-sm enroll-btn" data-course-id="ms-powerpoint">
+                <span>ভর্তি হতে চাই</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17l10-10M7 7h10v10"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 4: AI-এর ব্যবহার -->
+        <div class="course-card">
+          <div class="card-thumb">
+            <img src="ai.jpg" alt="AI-এর ব্যবহার" class="card-img">
+            <div class="card-price-pill">১৯৯ টাকা</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>ChatGPT, Gemini & Productivity</span>
+              <span class="sep">·</span>
+              <span>প্র্যাকটিক্যাল ক্লাস</span>
+            </div>
+            <h3 class="card-title">AI-এর ব্যবহার</h3>
+            <p class="card-desc">
+              ChatGPT, Gemini ও আধুনিক AI টুলস ব্যবহার করে পড়ার টেবিলে ও অফিসের কাজে ১০ গুণ গতি বাড়ানোর কার্যকর ট্রিকস।
+            </p>
+            <ul class="card-highlights">
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>ChatGPT ও Gemini ব্যবহারের সঠিক নিয়ম</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>অফিসিয়াল ইমেইল ও কনটেন্ট রাইটিং</li>
+              <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>AI দিয়ে ডাটা সামারি ও রিসার্চ</li>
+            </ul>
+            <div class="card-footer">
+              <div class="price-box">
+                <span class="fee-label">কোর্স ফি</span>
+                <span class="fee-amount">১৯৯ টাকা</span>
+              </div>
+              <button type="button" class="btn btn-primary btn-sm enroll-btn" data-course-id="ai-skills">
+                <span>ভর্তি হতে চাই</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17l10-10M7 7h10v10"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FREE CLASS SECTION ==================== -->
+  <section class="freeclass-section" id="free-class">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="kicker centered">
+          <span class="kicker-dot"></span>
+          <span>১০০% ফ্রি ওরিয়েন্টেশন ক্লাস</span>
+        </div>
+        <h2 class="section-title">ফ্রি ক্লাসে যুক্ত হয়ে যাচাই করুন</h2>
+        <p class="section-desc">
+          কোনো ধরনের অগ্রিম ফি ছাড়াই অংশ নিন আমাদের ফ্রি ওরিয়েন্টেশন ক্লাসে। জেনে নিন কম্পিউটার ও AI কীভাবে আপনার ক্যারিয়ার বদলে দেবে।
+        </p>
+      </div>
+
+      <!-- Feature Grid -->
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon icon-emerald">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+          </div>
+          <h3 class="feature-title">লাইভ ওরিয়েন্টেশন</h3>
+          <p class="feature-desc">সরাসরি শিক্ষকের সাথে যুক্ত হয়ে ক্লাসের পদ্ধতি ও সিলেবাস বিস্তারিত বুঝুন।</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+          </div>
+          <h3 class="feature-title">AI ও কম্পিউটার ডেমো</h3>
+          <p class="feature-desc">Microsoft Office এর ট্রিকস এবং ChatGPT ও Gemini-এর লাইভ ব্যবহার দেখুন।</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="feature-title">সরাসরি প্রশ্নোত্তর</h3>
+          <p class="feature-desc">আপনার কম্পিউটার শেখা সংক্রান্ত যেকোনো প্রশ্ন করে তাৎক্ষণিক উত্তর নিন।</p>
+        </div>
+      </div>
+
+      <!-- Action Card with Direct Google Form -->
+      <div class="freeclass-cta-box text-center">
+        <div class="seats-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>আগামী ফ্রি ক্লাসের আসন সংখ্যা সীমিত</span>
+        </div>
+        <h3 class="cta-box-title">আজই আপনার নাম তালিকাভুক্ত করুন</h3>
+        <p class="cta-box-sub">নিচের বাটনে ক্লিক করে ফর্মটি পূরণ করলেই ক্লাসের সময় ও লিংক আপনার সাথে শেয়ার করা হবে।</p>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg cta-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="14" x="3" y="5" rx="2"/><polygon points="10 9 15 12 10 15 10 9"/></svg>
+          <span>Free Class রেজিস্ট্রেশন ফরম</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+        </a>
+
+        <p class="cta-note">* বাটনে ক্লিক করলে গুগল ফর্মটি একটি নতুন ট্যাবে ওপেন হবে।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ENROLLMENT SECTION ==================== -->
+  <section class="enrollment-section" id="enrollment">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="kicker centered">
+          <span class="kicker-dot"></span>
+          <span>সহজ ভর্তি প্রক্রিয়া</span>
+        </div>
+        <h2 class="section-title">ভর্তি হতে চাই - সরাসরি অ্যাডমিশন</h2>
+        <p class="section-desc">
+          পছন্দের কোর্স সিলেক্ট করুন এবং সরাসরি ভর্তির ফর্ম পূরণ করে ক্লাসের এক্সেস বুঝে নিন।
+        </p>
+      </div>
+
+      <!-- Course Switcher Buttons -->
+      <div class="course-tabs" id="courseTabs">
+        <button type="button" class="tab-btn active" data-course-id="ms-word">Microsoft Word</button>
+        <button type="button" class="tab-btn" data-course-id="ms-excel">Microsoft Excel</button>
+        <button type="button" class="tab-btn" data-course-id="ms-powerpoint">Microsoft PowerPoint</button>
+        <button type="button" class="tab-btn" data-course-id="ai-skills">AI-এর ব্যবহার</button>
+      </div>
+
+      <!-- Enrollment Grid -->
+      <div class="enrollment-grid">
+        <!-- Selected Course Info Box -->
+        <div class="enroll-info-box">
+          <div class="enroll-box-header">
+            <div>
+              <span class="box-sub">নির্বাচিত কোর্স</span>
+              <h3 class="box-course-name" id="selectedCourseTitle">Microsoft Word</h3>
+            </div>
+            <div class="text-right">
+              <span class="box-sub">কোর্স ফি</span>
+              <div class="box-course-fee" id="selectedCoursePrice">১৯৯ টাকা</div>
+            </div>
+          </div>
+
+          <p class="enroll-box-desc" id="selectedCourseDesc">
+            অফিসিয়াল ডকুমেন্ট তৈরি, সিভি (CV) রাইটিং, পেজ সেটআপ, ফন্ট স্টাইলিং ও প্রফেশনাল প্রিন্ট করার সম্পূর্ণ গাইড।
+          </p>
+
+          <h4 class="syllabus-title">এই কোর্সে যা যা শিখবেন:</h4>
+          <ul class="syllabus-list" id="selectedCourseSyllabus">
+            <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>সিভি ও অফিশিয়াল লেটার তৈরি</li>
+            <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>টেবিল ও পেজ লেআউট ফরম্যাটিং</li>
+            <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>বাংলা ও ইংরেজি টাইপিং গাইডলাইন</li>
+            <li><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>প্রিন্ট ও পিডিএফ এক্সপোর্ট</li>
+          </ul>
+
+          <div class="trust-footer">
+            <span>✓ লাইফটাইম এক্সেস ও সাপোর্ট</span>
+            <span>·</span>
+            <span>✓ বিকাশ / নগদ / কার্ডের মাধ্যমে ফি প্রদান</span>
+          </div>
+        </div>
+
+        <!-- 3-Step Admission Action Card -->
+        <div class="enroll-action-card">
+          <h4 class="action-card-title">ভর্তি হওয়ার সহজ ৩ ধাপ</h4>
+          <div class="steps-list">
+            <div class="step-item">
+              <span class="step-number">১</span>
+              <span>নিচের <strong>"ভর্তি ফরম পূরণ করুন"</strong> বাটনে ক্লিক করুন।</span>
+            </div>
+            <div class="step-item">
+              <span class="step-number">২</span>
+              <span>আপনার নাম, মোবাইল নম্বর দিয়ে মাত্র ১৯৯ টাকা ফি প্রদান করুন।</span>
+            </div>
+            <div class="step-item">
+              <span class="step-number">৩</span>
+              <span>তাৎক্ষণিক ক্লাসের গ্রুপ ও ম্যাটেরিয়াল লিঙ্ক পেয়ে যাবেন।</span>
+            </div>
+          </div>
+
+          <div class="action-card-buttons">
+            <!-- Direct Google Form Registration Link -->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg w-full">
+              <span>ভর্তি ফরম পূরণ করুন</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+
+            <!-- WhatsApp Direct Contact -->
+            <a href="https://wa.me/8801700000000?text=Hello%20Learning%20Computer%20BD" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"/></svg>
+              <span>WhatsApp-এ সরাসরি ভর্তি হোন</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SUPPORT / CONTACT SECTION ==================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="kicker centered">
+          <span class="kicker-dot"></span>
+          <span>সরাসরি সহায়তা</span>
+        </div>
+        <h2 class="section-title">Support / Contact</h2>
+        <p class="section-desc">
+          কোর্স সংক্রান্ত যেকোনো প্রশ্ন, ফ্রি ক্লাসের শিডিউল বা যেকোনো সহায়তার জন্য আমাদের সাথে সরাসরি যোগাযোগ করুন।
+        </p>
+      </div>
+
+      <!-- 3 Channels Grid -->
+      <div class="contact-channels">
+        <a href="https://wa.me/8801700000000" target="_blank" rel="noopener noreferrer" class="channel-card">
+          <div class="channel-icon icon-emerald">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"/></svg>
+          </div>
+          <h3 class="channel-title">WhatsApp Support</h3>
+          <p class="channel-sub">তাৎক্ষণিক চ্যাট ও প্রশ্নোত্তর</p>
+          <span class="channel-btn">হোয়াটসঅ্যাপে লিখুন</span>
+        </a>
+
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="channel-card">
+          <div class="channel-icon icon-blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </div>
+          <h3 class="channel-title">Facebook Page</h3>
+          <p class="channel-sub">আপডেট ও নোটিশ জানতে</p>
+          <span class="channel-btn">পেজে ভিজিট করুন</span>
+        </a>
+
+        <a href="tel:+8801700000000" class="channel-card">
+          <div class="channel-icon icon-teal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3 class="channel-title">Direct Call</h3>
+          <p class="channel-sub">সকাল ১০টা - রাত ১০টা</p>
+          <span class="channel-btn">সরাসরি কল দিন</span>
+        </a>
+      </div>
+
+      <!-- Quick Message Form -->
+      <div class="quick-inquiry-box">
+        <h3 class="inquiry-title">কোনো জিজ্ঞাসা আছে? আমাদের মেসেজ দিন</h3>
+        <p class="inquiry-sub">আপনার নাম এবং মোবাইল নম্বর লিখে প্রশ্ন পাঠান, আমরা খুব দ্রুত যোগাযোগ করব।</p>
+        
+        <form id="inquiryForm" class="inquiry-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="userName">আপনার নাম *</label>
+              <input type="text" id="userName" required placeholder="যেমন: সাকিব হাসান">
+            </div>
+            <div class="form-group">
+              <label for="userPhone">মোবাইল নম্বর *</label>
+              <input type="tel" id="userPhone" required placeholder="017XXXXXXXX">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="userMsg">আপনার প্রশ্ন বা মতামত</label>
+            <textarea id="userMsg" rows="3" placeholder="কোন কোর্সটি আপনার জন্য উপযুক্ত বা অন্য তথ্য..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">বার্তা পাঠান</button>
+        </form>
+
+        <div id="formSuccess" class="form-success-box" style="display: none;">
+          <h4>ধন্যবাদ! আপনার বার্তাটি গ্রহণ করা হয়েছে।</h4>
+          <p>খুব শীঘ্রই আমাদের টিম আপনার সাথে ফোনে যোগাযোগ করবে।</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand">
+            <div class="brand-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.42 10.922a1 1 0 0 0-.019-.838L12.83 2.18a2 2 0 0 0-1.66 0L2.6 10.084a1 1 0 0 0 0 1.832l8.57 7.908a2 2 0 0 0 1.66 0l8.57-7.9a1 1 0 0 0 .02-.002z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <span class="brand-name">Learning Computer BD</span>
+          </div>
+          <p class="footer-tagline">কম্পিউটার ও AI শিক্ষা সহজভাবে</p>
+        </div>
+
+        <nav class="footer-nav">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScd2gThDtqFym5qOIZQqJVoKCKzPYYn6oYMRwwAc5jeTxsTjw/viewform?usp=header" target="_blank" rel="noopener noreferrer">Free Class ফরম</a>
+          <a href="#courses">ভর্তি হতে চাই</a>
+          <a href="#contact">Support / Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Learning Computer BD. All rights reserved.</p>
+        <p>দক্ষতা অর্জন করুন · স্বাবলম্বী হোন</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Learning Computer BD",
+  "description": "কম্পিউটার ও AI শিখুন সহজভাবে - Microsoft Word, Excel, PowerPoint এবং AI-এর ব্যবহার শিখুন সহজ ও ব্যবহারিকভাবে।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
